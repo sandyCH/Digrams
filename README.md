@@ -13,6 +13,7 @@ of digrams using python 3.5 or above in an Ubuntu linux environment bring up a c
  python3
 
 ">>>" import nltk
+
 ">>>" nltk.download()
 
 Go ahead and download all, then run the script digramGEN.py
