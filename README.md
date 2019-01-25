@@ -8,8 +8,9 @@ reports from Reuters available from the Natural Language Tool Kit in:
 http://www.nltk.org/install.html.  To install the python3 code and generate a dictionary
 of digrams using python 3.5 or above in an Ubuntu linux environment bring up a console:
 
- $ pip3 install -U nltk
- $ python3
+ pip3 install -U nltk
+ 
+ python3
 
 >>> import nltk
 >>> nltk.download()
