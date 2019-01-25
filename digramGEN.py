@@ -1,7 +1,7 @@
 #python3, Ubuntu linux
 #Natural Language Tool Kit in: http://www.nltk.org/install.html
 #NLTK Data explained in: http://www.nltk.org/data.html
-#sudo pip3 install -U nltk
+#pip3 install -U nltk
 #python3
 # >>> import nltk
 # >>> nltk.download()
