@@ -29,6 +29,6 @@ print('\nTotal digrams:',tot1)
 tot2 = len([b for b,a in fdic.items()])
 print('Total entries:',tot2,'\n')
 
-outfile = open('digrams.py','w')
-outfile.write('fdc = ' + str(fdic))
+outfile = open('fdc','w')
+outfile.write(str(fdic))
 outfile.close()
