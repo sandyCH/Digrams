@@ -10,6 +10,7 @@ print('Working....this may take a minute or two....')
 
 import nltk
 from nltk.util import ngrams
+import json
 
 cpus = ''
 for a in nltk.corpus.reuters.fileids():
@@ -29,6 +30,6 @@ print('\nTotal digrams:',tot1)
 tot2 = len([b for b,a in fdic.items()])
 print('Total entries:',tot2,'\n')
 
-outfile = open('fdc','w')
-outfile.write(str(fdic))
+outfile = open('fdc','w+')
+outfile.write(json.dumps(fdic))
 outfile.close()
