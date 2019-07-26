@@ -5,7 +5,7 @@
 #python3
 # >>> import nltk
 # >>> nltk.download()
-#Go ahead and download all, then run the script below:
+#download reuters, then run the script below:
 print('Working....this may take a minute or two....')
 
 import nltk
