@@ -12,9 +12,9 @@ of digrams using python 3.5 or above in an Ubuntu linux environment bring up a c
  
  python3
 
->>> import nltk
+">>>" import nltk
 
->>> nltk.download()
+">>>" nltk.download()
 
 Go ahead and download reuters, then run the script digramGEN.py
 This will generate a file called fdc which can be imported into your python crack
