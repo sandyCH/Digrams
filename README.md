@@ -16,6 +16,6 @@ of digrams using python 3.5 or above in an Ubuntu linux environment bring up a c
 
 ">>>" nltk.download()
 
-Go ahead and download reuters, then run the script digramGEN.py
+Go ahead and download reuters from the corpus tab, then run the script digramGEN.py
 This will generate a file called fdc which can be imported into your python crack
 program and used to analyze the ciphertext against a frequency of digrams.
